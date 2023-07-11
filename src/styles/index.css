@@ -10,3 +10,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background: black;
+    color:black;
+}
+
+.principal {
+
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white ;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+
+input {
+    width: 456px;
+    height: 40px;
+    
+    color: black;
+    padding: 20px;
+}
+
+
+
+.lista {
+    margin: 20px;
+    width: 410px;
+}
+
+.lista li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+}
